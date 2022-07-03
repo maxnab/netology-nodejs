@@ -2,7 +2,11 @@
   "name": "netology-nodejs",
   "version": "1.0.0",
   "description": "netology nodejs ",
-  "main": "index.js",
+  "main": "dates.js",
+  "bin": {
+    "cmd": "dates.js",
+    "quiz": "quiz.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/maxnab/netology-nodejs/issues"
   },
-  "homepage": "https://github.com/maxnab/netology-nodejs#readme"
+  "homepage": "https://github.com/maxnab/netology-nodejs#readme",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
 }
