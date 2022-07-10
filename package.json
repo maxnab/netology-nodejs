@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "netology nodejs ",
   "main": "index.js",
+  "bin": {
+    "quiz": "index.js",
+    "analize": "gameAnalyzer.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
